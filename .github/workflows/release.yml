@@ -1,4 +1,5 @@
 name: Release
+# Register this workflow on the fork so workflow_dispatch works.
 
 on:
   workflow_dispatch: # allows manual triggering

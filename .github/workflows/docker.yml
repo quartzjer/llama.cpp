@@ -8,6 +8,7 @@
 # You can also reference a tag or branch, but the action may change without warning.
 
 name: Publish Docker image
+# Register this workflow on the fork so workflow_dispatch works.
 
 on:
   workflow_dispatch: # allows manual triggering
